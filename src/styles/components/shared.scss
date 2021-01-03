@@ -1,0 +1,61 @@
+.container {
+}
+
+.h1-white {
+    margin: 10px 0;
+    color: white;
+}
+
+.h3-black {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.h3-white {
+    font-weight: 600;
+}
+
+.h4-black {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.input-container {
+    margin: 15px 0;
+}
+
+.input {
+    background-color: #F7F7F7;
+    height: 40px;
+    width: 100%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.blue-button {
+    border: none;
+    background-color: #3F99FF;
+    color: white;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+    .profile-pic {
+        width: 40px;
+        height: 40px;
+    }
+}

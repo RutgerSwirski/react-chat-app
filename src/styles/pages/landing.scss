@@ -1,0 +1,23 @@
+.landing {
+    background: #3F99FF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    z-index: 1;
+    padding: 0 30px;
+}
+
+.landing-wave {
+    position: absolute;
+    bottom: 0;
+    width: 250%;
+    z-index: 2;
+}
+
+.landing-header {
+    font-size: 45px;
+}

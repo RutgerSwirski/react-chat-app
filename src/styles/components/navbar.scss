@@ -1,0 +1,95 @@
+.navbar {
+    flex: 0 1 20%;
+    height: 100vh;
+    background-color: #3F99FF;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+.navbar-username-container {
+    display: flex;
+    align-items: center;
+    img { 
+        margin-right: 20px; 
+    }
+    h4 {
+        font-weight: 500;
+    }
+}
+
+.navbar-header {
+}
+
+.navbar-ul {
+    list-style: none;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.navbar-li {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar-logout {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar-responsive-menu {
+    padding: 15px 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+    width: 100%;
+    background-color: rgba(247, 247, 247, 0.7);
+}
+
+.navbar-hamburger-bar {
+    width: 35px;
+    height: 5px;
+    background-color:black;
+    margin: 6px 0;
+    border-radius: 10px;
+}
+
+.navbar-responsive {
+    width: 35px;
+}
+
+
+//TABLET RESPONSIVE
+@media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+    .navbar {
+        position: absolute;
+    }
+
+    .navbar-responsive-menu {
+        display: block !important;
+    }
+}
+
+//PHONE RESPONSIVE
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+    .navbar {
+        position: absolute;
+        z-index: 100 !important;
+    }
+    .navbar-responsive-menu {
+        display: block !important;
+    }
+}
